@@ -165,7 +165,7 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(160deg,#f0f4f2 
 // CONFIGURAÇÃO — cole aqui a URL do seu Apps Script Web App
 // após seguir o tutorial no arquivo GUIA_DE_USO
 // ─────────────────────────────────────────────────────────────
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzyAQY9ueBpmIswyx1zUjr_8XTBbflc6gn8AwGNh9z8mIJWMagjj4Fdz31n4UdQre8x/exec";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyHYGw7qb63qMKOnuk_N_aS343gQU1QpR0ZkXnOuprBP2Jx25Hk85UuUV1s3sihlZk/exec";
 // ─────────────────────────────────────────────────────────────
 
 const TOTAL = 9;
@@ -210,7 +210,7 @@ document.getElementById('clinicForm').addEventListener('submit', async function(
   };
 
   // Se URL não configurada, apenas mostra sucesso (modo demonstração)
-  if(APPS_SCRIPT_URL === "https://script.google.com/macros/s/AKfycbzyAQY9ueBpmIswyx1zUjr_8XTBbflc6gn8AwGNh9z8mIJWMagjj4Fdz31n4UdQre8x/exec"){
+  if(APPS_SCRIPT_URL === "https://script.google.com/macros/s/AKfycbyHYGw7qb63qMKOnuk_N_aS343gQU1QpR0ZkXnOuprBP2Jx25Hk85UuUV1s3sihlZk/exec"){
     document.getElementById('form-body').style.display='none';
     document.getElementById('successScreen').style.display='block';
     return;
